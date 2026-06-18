@@ -4,9 +4,7 @@ description: "GIS Researcher & Spatial Data Scientist specializing in Historical
 url: "https://ranamobeen.github.io"
 baseurl: ""
 
-theme: minimal-mistakes-jekyll
-
-minimal_mistakes_skin: "dark"
+remote_theme: mmistakes/minimal-mistakes
 
 author:
   name: "Mobeen Akhtar"
