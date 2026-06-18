@@ -1,10 +1,12 @@
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+
 title: "Mobeen Akhtar"
 name: "Mobeen Akhtar"
-description: "GIS Researcher & Spatial Data Scientist specializing in Historical GIS, Remote Sensing, and GeoAI. Mapping the past and modeling the present — from Holocaust memory to forest carbon stocks."
+description: "GIS Researcher & Spatial Data Scientist specializing in Historical GIS, Remote Sensing, and GeoAI."
 url: "https://ranamobeen.github.io"
 baseurl: ""
 
-remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark"
 
 author:
   name: "Mobeen Akhtar"
@@ -13,22 +15,21 @@ author:
   email: "dal485195@utdallas.edu"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mobeenakhtar269/"
     - label: "ResearchGate"
-      icon: "fab fa-researchgate"
+      icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Mobeen-Akhtar-2"
     - label: "ORCID"
-      icon: "ai ai-orcid"
+      icon: "ai ai-fw ai-orcid"
       url: "https://orcid.org/0000-0003-1842-7056"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com"
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 permalink: /:categories/:title/
 
